@@ -4,10 +4,22 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 100px;
-    background-color: hotpink;
+    background-color:black;
+    color: white;
 }
 
-.flex-container {
+.grid-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+
+
+
+
+
+/* .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,4 +27,4 @@ h1 {
     background-color: hotpink;
     margin: 100px 300px 50px 300px;
     padding: 20px;
-}
+} */
